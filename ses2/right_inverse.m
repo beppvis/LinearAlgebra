@@ -12,5 +12,5 @@ if rank(A) == size(A,1)
 	disp('The right inverse of A is  : ');
 	disp(right_inverse);
 else
-	disp('The right inverse of A is  : ')
+	disp('right inverse doesnt exist ')
 end
