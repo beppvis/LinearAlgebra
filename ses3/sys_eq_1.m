@@ -25,7 +25,7 @@ clc
 clear all
 A = [1 2 3; 2 -1 1; 3 -3 1];
 B = [14;3;8];
-%           [A,B] is augmented matrix
+%         [A,B] is augmented matrix
 R1 = rank([A,B]);
 R2 = rank(A);
 if R1 == R2
