@@ -1,8 +1,9 @@
 
 A = input('A = ') 
 
-
+% no of rows
 M = size(A,1);
+% no of coloumns
 N = size(A,2);
 
 

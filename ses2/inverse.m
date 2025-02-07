@@ -4,7 +4,7 @@ clear all
 
 
 A = [1 0 -1 ;2 1 0 ; 4 1 -2];
-
+% size 2 in no of coloumns
 if rank(A) == size(A,2)
 	% A' is A transpose
 	%   		  this is done so that the its a square matrix

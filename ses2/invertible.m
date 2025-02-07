@@ -1,8 +1,9 @@
 
 A = [1 2 3; 4 5 6; 7 8 9]
 
-
+% no of rows
 M = size(A,1);
+% no of columns
 N = size(A,2);
 
 
