@@ -14,5 +14,5 @@ if rank(A) == size(A,2)
 	disp('The left inverse of A is  : ');
 	disp(left_inverse);
 else
-	disp('The left inverse of A is  : ')
+	disp('The left inverse doesnt exit ')
 end
