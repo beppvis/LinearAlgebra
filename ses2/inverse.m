@@ -3,7 +3,8 @@ clear all
 
 
 
-A = [1 0 -1 ;2 1 0 ; 4 1 -2];
+A = [1 0 -1 ;2 1 0 ; 4 1 -9];
+
 % size 2 in no of coloumns
 if rank(A) == size(A,2)
 	% A' is A transpose

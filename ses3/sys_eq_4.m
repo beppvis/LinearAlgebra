@@ -13,20 +13,20 @@ rref(A)
 
 
 x = linspace(-3,2,20);
-y = linspace(2,6,20);
-[X,Y] = meshgrid(x,y);
+z = linspace(-2,6,20);
+[X,Z] = meshgrid(x,z);
 
-Z = Y-4;
+Y =4+Z;
 
 surf(X,Y,Z, 'FaceColor', 'red');
 
 hold on
 
-Z=2-X-Y/2;
+Y = 4-2*Z-2*X;
 
 surf(X,Y,Z, 'FaceColor', 'blue');
 
-Z=8-2*X-2*Y;
+Y = 4 - (1/2)*Z - X;
 
 surf(X,Y,Z, 'FaceColor', 'green');
 
