@@ -7,6 +7,9 @@ B = [0;4;0;5]
 [Q,R] = qr(A)
 
 % Q' since Q-1 is same as Q'
+% Ax = b 
+% QR x = B
+% Rx = Q'B
 % I = Q * Q'
 
 B1 = Q' * B;

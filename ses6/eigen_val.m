@@ -10,11 +10,11 @@ A=[1 -3 3;3 -5 3;6 -6 4];
 eigenvalues=diag(eigenvalues_matrix);
 disp("Eigenvalues:");
 disp(eigenvalues);
-disp("eigenvectors");
+disp("eigenvect;ors");
 disp(eigenvectors);
 
 
-syms lambda;
+syms lambda
 char_poly=det(A-lambda*eye(size(A)));
 disp("characteristic polynomial");
 disp(char_poly)

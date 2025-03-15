@@ -7,5 +7,5 @@ disp('Nullspace of A ')
 disp(N)
 
 Nl = null(A');
-disp('Left nullspace of A ')
+disp('Left nullspace of AT ')
 disp(Nl)
