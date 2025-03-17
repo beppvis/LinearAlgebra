@@ -17,3 +17,22 @@ else
     disp("It is not diagonizable and the eigen vectors are linearly dependent")
 end
 
+clc
+clear all
+
+A = [1 0 0; 1 2 0; -3 5 2]
+
+[P,D] = eig(A)
+
+
+if (rank(P) == size(A,1))
+    A_1= P \ (A*P)
+    if norm(A_1-D)< 1e-6
+        disp("diagonlizable")
+    else
+        disp("not diagonlizable")
+    end
+else
+    disp("It is not diagonizable and the eigen vectors are linearly dependent")
+end
+
